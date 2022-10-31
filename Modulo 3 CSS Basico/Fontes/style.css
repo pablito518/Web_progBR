@@ -1,0 +1,21 @@
+p{
+    /*É interessante que uma fonte de backup seja usada, caso
+     *a fonte usada não exista no computador no usuário.
+     *Ex: fonte progbr.*/
+     
+     /*E ainda, caso não exista a de backup, deve-se usar uma
+      *fonte genérica*/
+
+     /*Quando o nome da fonte tiver mais de uma palavra, 
+     *deve-se usar aspas*/
+    font-family:progbr, "Sans", sans-serif;
+    font-style:italic;
+    font-size:20px;
+    font-weight: bold; /*pode usar valores numéricos 100~900*/
+    
+    /*Torna as letras minúsculas com aparência de maísculas*/
+    font-variant:small-caps;
+    
+    
+}
+

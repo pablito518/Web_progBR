@@ -1,0 +1,36 @@
+/*RGBA = Red, Green, Blue, Alpha. 
+* Alpha varia de 0 a 1 e define a transparência. 
+* Os demais variam de 0 a 255  */ 
+
+body{
+   /* background-image: url(JonathanJoestar.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;*/
+}
+
+#principal{
+    background-image: url(JonathanJoestar.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    /*background-position:center;*/
+
+    /* Outra forma de fazer isso: 
+    background: url(JonathanJoestar) no-repeat fixed cover;
+    Obs: A ordem importa
+    */
+}
+
+#primeiro{
+    color:rgba(255,0,0,0.5);
+    background-color: rgba(115, 255, 0, 0.603);
+}
+ 
+
+#info{
+    color:rgb(0,0,255);
+}
+
+.texto_verde{
+    color:#88FF00;
+}

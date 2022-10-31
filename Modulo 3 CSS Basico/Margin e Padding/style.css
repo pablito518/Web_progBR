@@ -1,0 +1,14 @@
+#base{
+    height:10px;
+    background-color:red;
+}
+
+#container{
+    padding-left:10px;
+    padding-top:8px;
+    padding-bottom: 5px;
+    margin-top:10px;
+    margin-bottom: 20px;
+    color:white;
+    background-color:rgba(4, 14, 161, 0.877);
+}

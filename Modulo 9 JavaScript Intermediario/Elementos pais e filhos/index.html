@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elementos pais e filhos</title>
+    <script>
+        window.onload = function(){
+            let d1 = document.getElementById("d1");
+
+            //Pegando os elementos filhos
+            console.log(d1.children);
+
+            //selecionando o primeiro filho
+            let h1 = d1.children[0];
+            console.log(h1);
+            
+            //Pegando o elemento-pai
+            console.log(h1.parentElement);
+
+            console.log(document.body.children)
+            console.log(document.body.children[0])
+            console.log(document.body.children[0].children)
+
+
+            let h = document.getElementsByTagName("h1");
+
+            //Adiciona o EventListener nos elementos h1 que estão na varíavel "h"
+            //Os elementos são extraídos de "h" pelo laço, e os EventListeners são adicionados
+            for (let h1 of h){
+                console.log(h1);
+
+                //qop = qual o pai
+                h1.addEventListener("click",qop);
+            }
+            
+            //e = evento
+            //e.target para saber qual foi o "alvo" do clique.
+            function qop(e){
+                let t = e.target;
+                console.log(t.parentElement);
+            }
+        }
+    </script>
+</head>
+<body>
+    <div id ="d1">
+        <h1>Titulo</h1>
+        <p>Qualquer texto</p>
+    </div>
+
+    <div id="d2">
+        <h1>Titulo 2</h1>
+        <p>Qualquer texto 2</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+/*RGBA = Red, Green, Blue, Alpha. 
+* Alpha varia de 0 a 1 e define a transparência. 
+* Os demais variam de 0 a 255  */ 
+
+#primeiro{
+    color:rgba(255,0,0,0.5);
+}
+ 
+
+#info{
+    color:rgb(0,0,255);
+}
+
+.texto_verde{
+    color:#88FF00;
+}

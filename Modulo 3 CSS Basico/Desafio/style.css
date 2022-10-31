@@ -1,0 +1,56 @@
+body{
+  padding:0;
+  margin:0;
+  font-family:'Courier New', Courier, monospace;
+}
+
+p{
+  font-size: 22px;
+}
+
+a{
+  text-decoration: none;
+  color:black;
+}
+#container{
+width: 100vw;
+height: 100vh;
+}
+
+#card{
+  width:400px;
+  height: 200px;
+  background-image: url(./images/background.png);
+  background-size: cover;
+  padding: 1px 20px;
+  box-sizing: border-box;
+
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#Instagram{
+  list-style-image: url(./images/Insta.png);
+}
+
+#Twitter{
+  list-style-image: url(./images/Twitter.png);
+}
+
+#Youtube{
+  list-style-image: url(./images/Youtube.png);
+}
+
+#Instagram:hover{
+  color:purple;
+}
+
+#Twitter:hover{
+  color:aqua;
+}
+
+#Youtube:hover{
+  color:tomato;
+}

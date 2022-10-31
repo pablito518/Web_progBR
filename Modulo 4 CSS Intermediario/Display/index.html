@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>Display</title>
+    <style>
+        body{
+            font-size:1.2rem;
+        }
+        h2,h3{
+            font-weight:400
+        }
+    </style>
+</head>
+<body>
+    <!--                               Informações                                      -->
+    <h2>Divs tem display <strong>block</strong>, por isso ocupam toda a "linha" em que se encontram</h2>
+    <h3><strong>É possível</strong> alterar <strong>largura e altura</strong> no display "block"</h3>
+    <!--                                                                                -->
+
+    <div style="background-color: blue;">
+        <div>Esta é uma div normal</div>
+        <div>E aqui a história<div style="background-color: red;">Div de dentro</div>
+        continua</div>
+    </div>
+
+    <div>
+        <p>Este é um parágrafo normal</p>
+        <p>E aqui a história continua</p>
+    </div>
+
+        <!--                               Informações                                      -->
+        <h2>O span com o display <strong>inline-block</strong> no qual <strong>é possível</strong> alterar
+            <strong>Largura e Altura</strong></h2>
+    
+    <p>
+        Aqui eu tenho o inicio de um parágrafo 
+        <span style="background-color:green; width:500px; display: inline-block">um SPAN no meio</span>
+        E o fim do parágrafo.
+    </p>
+
+    <h2>O span tem o display <strong>inline</strong> no qual <strong>não é possível</strong> alterar
+        <strong>Largura e Altura</strong></h2>
+
+    <p>
+        Aqui eu tenho o inicio de um parágrafo 
+        <span style="background-color:green; width:500px;">um SPAN no meio</span>
+        E o fim do parágrafo.
+    </p>
+
+    <p style="background-color: blue;">
+        Aqui eu tenho o inicio de um parágrafo <div style="background-color: red;"> uma div no meio </div>
+        E o fim do parágrafo.
+    </p>
+
+    <p>
+        Aqui eu tenho o inicio de um parágrafo <img src="./images/pc1.jpg">
+        e o fim do parágrafo.
+    </p>
+
+</body>
+</html>

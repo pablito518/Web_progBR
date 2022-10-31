@@ -1,0 +1,109 @@
+body{
+    background-color:black;
+    margin:0;
+    padding:0;
+}
+
+.header{
+    margin:auto;
+    width:60%;
+    background-color:rgb(0,200,255);
+    color:white;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+    margin:0;
+    padding:10px;
+}
+
+h3{
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+.white{
+    color:white;
+}
+
+#background{
+    background:url(./images/palestra.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: center;
+    margin:auto;
+    width:60%;
+    overflow:hidden;
+}
+
+#form{
+    margin:20px;
+    padding:15px;
+    background-color:rgba(255,255,255,0.7);
+    float:right; 
+    width:250px;
+    height:400px;
+}
+
+.inputText{
+   margin-bottom:8px;
+   padding:10px; 
+   width:90%;
+}
+
+.select{
+    margin-bottom:10px;
+    padding:10px; 
+    width:99.6%;
+}
+
+#botao{
+    font-weight: bold;
+    display:block;
+    width:99.6%;
+    border:none;
+    margin:auto;
+    color:white;
+    background-color:rgb(0,200,255);
+    padding:10px;
+}
+
+#divPalestrante{
+    background:rgb(20,20,20);
+    margin:auto;
+    width:60%;
+    height:300px;
+    overflow:hidden;
+}
+
+.posicionaImg{
+   float:left;
+   margin-left:20%;
+   margin-right:5%;
+   margin-top:5%; 
+   margin-bottom: 20%;
+}
+
+
+img{
+    width:150px;
+    height:200px;
+}
+
+.ajusteTexto{
+    font-size:15px;
+    margin-top:5%;
+    margin-left: 40%;
+    max-width: 330px;
+}

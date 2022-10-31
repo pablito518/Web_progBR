@@ -1,0 +1,27 @@
+.paragrafo{
+    /*É interessante que uma fonte de backup seja usada, caso
+     *a fonte usada não exista no computador no usuário.
+     *Ex: fonte progbr.*/
+     
+     /*E ainda, caso não exista a de backup, deve-se usar uma
+      *fonte genérica*/
+
+     /*Quando o nome da fonte tiver mais de uma palavra, 
+     *deve-se usar aspas*/
+     font-family: 'MinhaFonte2', cursive;
+     font-size:20px;    
+}
+
+.paragrafoDois{
+    font-family: 'MinhaFonte', cursive;
+    font-size:20px;  
+}
+@font-face{
+    font-family: 'MinhaFonte';
+    src: url(./fonts/04B_30__.TTF);
+}
+
+@font-face{
+    font-family:'MinhaFonte2';
+    src:url(./fonts/Angel_wish.ttf);
+}

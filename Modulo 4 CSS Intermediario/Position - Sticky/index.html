@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Position Sticky</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <style>
+        .quadrado{
+            width:100px;
+            height:100px;
+        }
+    
+        .quadrado-red{
+            width:100%;
+            top:0px; 
+            position:sticky;
+            background-color: red;
+        }
+
+        .quadrado-blue{
+            background-color: blue;
+        }
+
+        .quadrado-green{
+            background-color: green;
+        }
+
+        .quadro{
+            position: relative;
+            width:800px;
+            height:4000px;
+            border:1px solid gray;
+        }
+    </style>
+</head>
+<body>
+    <div class="quadro">
+        <div class="quadrado quadrado-red"></div>
+        <div class="quadrado quadrado-blue"></div>
+        <div class="quadrado quadrado-green"></div>
+    </div>
+</body>
+</html>

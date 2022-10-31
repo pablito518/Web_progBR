@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Events</title>
+    <style>
+        div{
+            display:inline-block;
+            padding:20px;
+            font-size: 2rem;
+            background-color: crimson;
+            color:aliceblue;
+        }        
+    </style>
+
+</head>
+<body>
+    <h1 onclick="h1click(); this.style.color='red';">Click me</h1>
+    
+    <!--
+    onchange vai executar a função quando o input perder o foco
+
+    <input id="texto" type="text" onchange="changeH1(this);">
+    -->
+     <!--
+    oninput vai executar a função assim que algo for alterado no input
+    <input id="texto" type="text" onchange="changeH1(this);">
+    -->
+    <input id="texto" type="text" oninput="changeH1(this);"><br><br>
+    <div onclick="hideH1()">Click</div>
+    <script src="script.js"></script>
+</body>
+</html>

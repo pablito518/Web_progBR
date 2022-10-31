@@ -1,0 +1,28 @@
+html{
+    font-size:20px;
+}
+
+.container{
+    
+    /*font-size:20px;*/
+
+    
+
+    width:50vw;
+    background-color: red;
+}
+
+.inside{
+    /*"em" é relativo ao elemento pai. 
+     * Ex: se o font-size do pai for "20px" e o font-size do filho for "2em",
+     * o tamanho do font-size do filho será, em pixels, 40px. 
+     * Obs: "em" será sempre relativo ao tamanho da fonte*/
+    /*font-size:1em;*/
+    
+    /*"rem" é relativo à raiz, ou seja, a tag html*/ 
+    font-size:2rem;
+}
+
+/**************** Outras unidades relativas ****************/
+
+/****************** vmin,vmax,"x"%,vw,vh  ******************/

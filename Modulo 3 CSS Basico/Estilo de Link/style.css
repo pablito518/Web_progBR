@@ -1,0 +1,31 @@
+
+/*Aplica o estilo para os elementos antes e depois da visita*/
+a{
+    text-decoration:none;
+    color:goldenrod;
+   /* background: #bc2035;*/
+    padding:10px;
+    padding-top:5px;
+    padding-bottom:5px;
+    border-radius:10px;
+    border:2px solid #bc203b;
+}
+
+/* Aplicaria o estilo apenas para os links (antes da visita)
+a:link{
+
+}
+*/
+
+/* Aplica o estilo para o link depois da visita */
+a:visited{
+    color:red;
+}
+
+a:hover{
+    background:wheat;
+}
+
+a:active{
+    background:rebeccapurple;
+}

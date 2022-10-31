@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Events - Parte 2</title>
+    <style>
+        img{
+            width:200px;
+            margin-bottom:25px;
+        }
+        div{
+            display:inline;
+            padding:10px;
+            font-size: 2rem;
+            background-color: black;
+            color:aliceblue;
+        }        
+    </style>
+
+</head>
+<body onload="console.log('página completamente carregada')">
+    
+    <img src="Sora.png"><br>
+    <div onmouseover="onOver(this);" onmouseout="onOut(this)">Click</div>
+    <script src="script.js"></script>
+</body>
+</html>

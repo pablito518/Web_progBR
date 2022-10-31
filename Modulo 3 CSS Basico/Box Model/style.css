@@ -1,0 +1,60 @@
+body{
+    margin:0;
+    padding:0;
+}
+
+.container{
+    background-color:red;
+    padding:5px;
+    border:5px solid blue;
+    margin:10px;
+}
+
+.content{
+    background-color:#ddd;
+  /*outline: 5px solid green;*/
+    border: 5px solid green;
+}
+
+.square{
+    width:100px;
+    height:100px;
+    background-color:yellow;
+    border:10px solid blue;
+
+    /*Para que de fato se obtenha width e height=100px, deve-se usar o
+     *box-sizing: border-box;*/
+    box-sizing: border-box;
+
+}
+
+.square2{
+    width:100px;
+    height:100px;
+    background-color:yellow;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
